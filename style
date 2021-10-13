@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+html {
+    height: 100%;
+    background-color:#F0F0CA
+}
+
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 800px;
+}
+
+.navbar{
+    position: sticky;
+    display: flex;
+    top: 1px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    background-color:#8A9E88 ; 
+    flex-direction: row;
+}
+.navcontainer ul {
+    
+    display: flex;
+    align-content: center;
+
+    list-style-type: none;
+    text-decoration: none;
+    flex-direction: column;
+
+}
+.navcontainer li {
+    align-content: center;
+
+    margin-right: 5px;
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #D7EBD5;
+    align-content: center;
+    background-image: url(https://th.bing.com/th/id/OIP.MCpPkAKCP32OJah97EDhTgHaEK?pid=ImgDet&rs=1);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+img{
+    border-radius: 20%;
+}
+
+.articlescontainer{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40%;
+    height: 400px;
+    width:400px;
+    background-color: #889D9E;
+    position: relative;
+    top:100px;
+    left:60px;
+    border-radius: 2px;
+    border-color: black;
+
+
+}
+.article
+{
+    display:flex;
+    height:100px;
+    width:100px;
+    flex-grow: 3px;
+    margin:5px;
+    border: black;
+    border-radius: 2px;
+    gap: 10px;
+
+}
+
+p{
+    text-align: left;
+    color: white;
+}
+.aside{
+    display:inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 200px;
+    background-color: #9AAB90;
+    position:absolute;
+    right: 100px;
+    top:300px;
+
+}
+
+footer
+{
+    position: sticky;
+                    
+    bottom: 0px;
+    
+    width: 100%;
+    
+    background-color:#D7EBD5;
+    
+    
+
+}
+
+footer h2{
+    text-align: center;
+    color:white;
+    padding-left: 3%;
+}
+@media screen and (max-width: 900px) {
+
+    aside {
+  
+      position: absolute;
+  
+      z-index: 10;
+  
+      left: 10px;
+  
+    }
+  
+  }
